@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/proform.css">
+    <title>Document</title>
+
+
+    <style>
+
+        .next {
+        
+                position:relative;
+                margin:-100px;
+                left:75%;
+                display: block;
+                background: #d40e00;
+                color: #fff;
+                padding: 15px;
+                cursor: pointer;
+                text-decoration: none;
+                width: 320px;
+                text-align: center;
+                border-radius: 5px;
+                font-size: 20px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        
+        }
+        
+        .next:hover{
+        
+            background: #d8a005;
+        }
+
+        .again {
+        
+        position:relative;
+        margin:-100px;
+        left:75%;
+        display: block;
+        background: #2e00d4;
+        color: #fff;
+        padding: 15px;
+        cursor: pointer;
+        text-decoration: none;
+        width: 320px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.again:hover{
+
+    background: #d8a005;
+}
+        
+            </style>
+        
+
+</head>
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>POST HERE</h2>
+            <form action="connectpro.php" id="register" method="POST">
+                <label> Full Name : </label> <br>
+                <input type="text" name=" name" id="name" placeholder=" enter Full name"
+                >
+                <br><br>
+                <label >Address</label><br>
+                <textarea name="address" id="name" placeholder="enter your address here "></textarea><br><br>
+                <br><br><br>
+                <label> email : </label> <br>
+                <input type="text" name=" email" id="name" placeholder=" enter email address"
+                >
+                <br><br>
+                <label> number : </label>
+                <input type="number" name="number" id="name" placeholder="phone/mobile number"><br>
+                <br><br>
+
+                <input type="submit" value="post" name="post" id="post">
+
+
+                
+
+                
+
+
+
+            </form>
+        </div>
+    </div>
+
+    <div>
+
+        <a href="profile.php" class="next" >Check out our Employees Page</a>
+        <a href="profilereplica.php" class="again" >Check out your Profile page</a>
+
+    </div>
+
+</body>
+</html>

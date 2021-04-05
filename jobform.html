@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/jobform.css">
+    <title>Document</title>
+   
+    <style>
+
+.next {
+
+        position:relative;
+        margin:-100px;
+        left:75%;
+        display: block;
+        background: #00A9D4;
+        color: #fff;
+        padding: 15px;
+        cursor: pointer;
+        text-decoration: none;
+        width: 320px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.next:hover{
+
+    background: #d4a406;
+}
+
+    </style>
+
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>POST HERE</h2>
+            <form action="connect.php" id="register" method="POST">
+                <label> job name : </label> <br>
+                <input type="text" name=" fname" id="name" placeholder=" enter job name"
+                >
+                <br><br>
+                <label> job description :</label> <br>
+                <textarea name="jobdesc" id="name" placeholder="write about your job"></textarea><br><br>
+
+                <label> working days : </label>
+                <input type="number" name="days" id="name" placeholder="how many days/week">
+                <br><br>
+
+                <label> salary : </label>
+                <input type="number" name="salary" id="name" placeholder="payment"><br>
+                <h2>REQUIRMENTS</h2>
+                <label >skills:</label><br>
+                <textarea name="skills" id="name" placeholder="enter required skills here "></textarea><br><br>
+                <label >age:</label>
+                <input type="number" name="age">
+                <br><br>
+                <label >gender:</label>
+                <input type="radio" name="gender" id="male" value="m">
+                &nbsp;
+                <span id="male">Male</span>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" name="gender" id="female" value="f">
+                &nbsp;
+                <span id="female">Female</span>
+                <input type="radio" name="gender" id="both" value="o">
+                &nbsp;
+                <span id="both">both</span>
+                <br><br><br>
+                <label> email : </label> <br>
+                <input type="text" name=" email" id="name" placeholder=" enter email address"
+                >
+                <br><br>
+                <label> number : </label>
+                <input type="number" name="number" id="name" placeholder="phone/mobile number"><br>
+                <br><br>
+
+                <input type="submit" value="post" name="post" id="post">
+
+
+                
+
+                
+
+
+
+            </form>
+
+            
+
+        </div>
+    </div>
+            <div>
+
+                <a href="joblistreplica.php" class="next" >Check Out our Job Listings page</a>
+
+            </div>
+
+        
+</body>
+</html>
