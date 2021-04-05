@@ -73,7 +73,7 @@ require 'db_conn.php';
 
             <?php
         
-           $proform = $conn->query("SELECT * FROM proform WHERE id=1 ");
+           $proform = $conn->query("SELECT * FROM proform WHERE id=6 ");
 
            ?>
             
@@ -120,14 +120,22 @@ require 'db_conn.php';
                             <?php echo $proformm['name'] ?>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5>Qualifications</h5>
+                            </div>
+                            <div class="col-md-9 text-secondary">
+                            <?php echo $proformm['quali'] ?>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card mb-3 content">
-                    <h1 class="m-3">recent Projects</h1>
+                    <h1 class="m-3">Applied Job</h1>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-3">
-                                <h5>Project name</h5>
+                                <h5>Job name</h5>
                             </div>
 
                           

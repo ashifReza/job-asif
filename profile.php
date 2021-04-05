@@ -116,6 +116,14 @@ require 'db_conn.php';
                             <?php echo $proformm['name'] ?>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5>Qualifications</h5>
+                            </div>
+                            <div class="col-md-9 text-secondary">
+                            <?php echo $proformm['quali'] ?>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

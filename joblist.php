@@ -65,7 +65,7 @@ require 'db_conn.php';
   height:170px;
   z-index:2;
   text-align:center;
-  padding:20px;
+  padding:35px;
   box-sizing:border-box;
   font-family:"Open Sans",sans-serif;
   color:darkgreen;
@@ -74,7 +74,7 @@ require 'db_conn.php';
 .popup .close-btn {
   cursor:pointer;
   position:absolute;
-  right:20px;
+  right:10px;
   top:20px;
   width:30px;
   height:30px;

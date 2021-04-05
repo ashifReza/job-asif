@@ -13,7 +13,7 @@
 
   //Database connection
 
-  $conn = new mysqli('localhost','root','','mydb');
+  $conn = new mysqli('remotemysql.com','964yLLIoDE','nZHgpFUlBw','964yLLIoDE');
   if($conn->connect_error){
       die('Connecttion Failed :' .$conn->connect_error);
   }else{
@@ -21,7 +21,7 @@
       
       $stmt->bind_param("sssisissi",$fname, $jobdesc, $days, $salary, $skills, $age, $gender,$email,$number);
       $stmt->execute();
-      header('location: joblist.php');
+      header('location: joblistreplica.php');
       $stmt->close();
       $conn->close();
 
